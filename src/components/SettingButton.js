@@ -2,12 +2,11 @@ import React from "react";
 import "../App.css";
 import { AiFillSetting } from "react-icons/ai";
 
-function SettingButton() {
+function SettingButton(props) {
   return (
-    <div className="settings">
+    <button {...props} className="settings-button">
       <AiFillSetting size="55px" />
-      <p>Settings</p>
-    </div>
+    </button>
   );
 }
 

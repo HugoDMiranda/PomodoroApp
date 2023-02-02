@@ -2,9 +2,9 @@ import React from "react";
 import "../App.css";
 import { AiFillPauseCircle } from "react-icons/ai";
 
-function PauseButton() {
+function PauseButton(props) {
   return (
-    <button>
+    <button {...props}>
       <AiFillPauseCircle size="55px" />
     </button>
   );

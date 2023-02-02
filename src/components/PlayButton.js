@@ -1,9 +1,9 @@
 import React from "react";
 import { AiFillPlayCircle } from "react-icons/ai";
 
-function PlayButton() {
+function PlayButton(props) {
   return (
-    <button>
+    <button {...props}>
       <AiFillPlayCircle size="55px" />
     </button>
   );
